@@ -1,4 +1,3 @@
-
 import { createContext, useContext, useEffect, useState } from "react";
 
 type Theme = "blue" | "dark" | "purple";
@@ -15,14 +14,12 @@ type ThemeContextType = {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export function ThemeProvider({ children }: ThemeProviderProps) {
-  const [theme, setTheme] = useState<Theme>("blue");
-
-  useEffect(() => {
+  const [theme, setTheme] = useState<Theme>(() => {
+    // Retrieve and validate the saved theme during initialization
     const savedTheme = localStorage.getItem("theme") as Theme;
-    if (savedTheme && (savedTheme === "blue" || savedTheme === "dark" || savedTheme === "purple")) {
-      setTheme(savedTheme);
-    }
-  }, []);
+    const validThemes: Theme[] = ["blue", "dark", "purple"];
+    return validThemes.includes(savedTheme) ? savedTheme : "blue";
+  });
 
   useEffect(() => {
     const root = window.document.documentElement;

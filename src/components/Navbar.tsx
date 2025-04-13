@@ -3,11 +3,20 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import ThemeSwitcher from "./ThemeSwitcher";
 import { Links } from "@/data/links";
+import { useToast } from "@/hooks/use-toast";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const resumeUrl = Links.resume;
+  const { toast } = useToast();
+
+  const handledownload = () => {
+    toast({
+      title: "Downloading Resume",
+      description: "Your download will start shortly.",
+    });
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -61,7 +70,12 @@ const Navbar = () => {
                 </a>
               ))}
               <ThemeSwitcher />
-              <Button size="sm" className="ml-4" asChild>
+              <Button
+                size="sm"
+                className="ml-4"
+                asChild
+                onClick={handledownload}
+              >
                 <a href={resumeUrl} download="Aathif_Zahir_CV.pdf">
                   Resume
                 </a>

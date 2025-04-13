@@ -30,14 +30,14 @@ const ThemeSwitcher = () => {
           <span className="sr-only">Toggle theme</span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end">
+      <DropdownMenuContent align="end" className="space-y-1">
         {themes.map((t) => (
           <DropdownMenuItem
             key={t.name}
             onClick={() => setTheme(t.name as any)}
-            className={theme === t.name ? "bg-accent" : ""}
+            className={theme === t.name ? "bg-accent " : ""}
           >
-            <div className="flex items-center">
+            <div className="flex items-center ">
               {t.icon}
               <span className="ml-2">{t.label}</span>
             </div>

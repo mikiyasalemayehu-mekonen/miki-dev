@@ -3,6 +3,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { motion } from "framer-motion";
+import { useToast } from "@/hooks/use-toast";
 import {
   FileText,
   Briefcase,
@@ -11,10 +12,11 @@ import {
   Download,
 } from "lucide-react";
 import LazyImage from "./LazyImage";
+import { Links } from "@/data/links";
 
 const AboutSection = () => {
-  const resumeUrl =
-    "https://www.dropbox.com/scl/fi/5cdpgpd82ve8s2ybn1ahd/Aathif_Zahir_CV.pdf?rlkey=mwvgt68uam8982x24k00idnpz&st=m3n42g1f&dl=1";
+  const resumeUrl = Links.resume;
+  const { toast } = useToast();
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -35,6 +37,13 @@ const AboutSection = () => {
         duration: 0.5,
       },
     },
+  };
+
+  const handledownload = () => {
+    toast({
+      title: "Downloading Resume",
+      description: "Your download will start shortly.",
+    });
   };
 
   return (
@@ -201,7 +210,7 @@ const AboutSection = () => {
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.98 }}
             >
-              <Button className="gap-2" asChild>
+              <Button className="gap-2" asChild onClick={handledownload}>
                 <a href={resumeUrl} download="Aathif_Zahir_CV.pdf">
                   <Download className="w-4 h-4" />
                   Download Resume
