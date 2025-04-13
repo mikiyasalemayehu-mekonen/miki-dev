@@ -46,6 +46,8 @@
 
     --footer-background: hsl(215, 52.2%, 9%);
 
+    --codebg: hsl(0, 0%, 100%);
+
     --radius: 0.75rem;
   }
 
@@ -89,6 +91,8 @@
 
     --footer-background: hsl(215, 52.2%, 9%);
 
+    --codebg: hsl(227, 40.9%, 8.6%);
+
     --radius: 0.75rem;
   }
 
@@ -131,6 +135,8 @@
     --sidebar-ring: 265 70% 50%;
 
     --footer-background: hsl(286, 35.1%, 7.3%);
+
+    --codebg: hsl(0, 0%, 100%);
 
     --radius: 0.75rem;
   }

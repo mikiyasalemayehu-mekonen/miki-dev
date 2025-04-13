@@ -1,6 +1,5 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import { Links } from "@/data/links";
-import { useTheme } from "@/components/ThemeProvider";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();

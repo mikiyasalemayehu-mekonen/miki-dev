@@ -171,7 +171,7 @@ const HeroSection = () => {
             />
 
             <motion.div
-              className="relative bg-white border border-gray-200 p-6 rounded-2xl shadow-sm"
+              className="relative bg-codebg border border-gray-200 p-6 rounded-2xl shadow-sm"
               whileHover={{
                 y: -5,
                 boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)",
