@@ -1,16 +1,20 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import { Links } from "@/data/links";
+import { useTheme } from "@/components/ThemeProvider";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-white py-12">
+    <footer
+      className="py-12"
+      style={{ backgroundColor: "var(--footer-background)" }}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0 text-center md:text-left">
             <span className="text-2xl font-bold text-primary">AZ.</span>
-            <p className="mt-2 text-gray-400 max-w-md">
+            <p className="mt-2 text-muted-foreground max-w-md">
               Building elegant digital solutions with a focus on user experience
               and technical excellence.
             </p>

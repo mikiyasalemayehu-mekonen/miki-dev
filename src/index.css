@@ -44,6 +44,8 @@
     --sidebar-border: 214.3 31.8% 91.4%;
     --sidebar-ring: 220 70% 50%;
 
+    --footer-background: hsl(215, 52.2%, 9%);
+
     --radius: 0.75rem;
   }
 
@@ -85,6 +87,8 @@
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
 
+    --footer-background: hsl(215, 52.2%, 9%);
+
     --radius: 0.75rem;
   }
 
@@ -125,6 +129,8 @@
     --sidebar-accent-foreground: 250 25% 27%;
     --sidebar-border: 260 31.8% 91.4%;
     --sidebar-ring: 265 70% 50%;
+
+    --footer-background: hsl(286, 35.1%, 7.3%);
 
     --radius: 0.75rem;
   }
