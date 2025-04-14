@@ -1,9 +1,12 @@
 # 🚀 Aathif Zahir – Full Stack Developer Portfolio
 
-[![Portfolio](https://img.shields.io/badge/Live%20Portfolio-Visit-blueviolet?style=for-the-badge&logo=vercel&logoColor=white)](https://aathifzahir.dev)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Portfolio--Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aathifzahir/portfolio)
-[![Made With](https://img.shields.io/badge/Made%20With-React%20%26%20TailwindCSS-0ea5e9?style=for-the-badge&logo=react&logoColor=white)](#)
-[![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)](LICENSE)
+[![Portfolio](https://img.shields.io/badge/Live%20Portfolio-blueviolet?style=for-the-badge&logo=vercel&logoColor=white)](https://aathifzahir.dev)
+[![GitHub Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aathifzahir/portfolio)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue)
+[![License](https://img.shields.io/badge/MIT-green?style=for-the-badge)](LICENSE)
 
 ---
 
