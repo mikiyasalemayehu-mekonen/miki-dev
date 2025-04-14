@@ -98,16 +98,6 @@ npm run lint       # Lints your code with ESLint
 
 ---
 
-## 📸 Screenshots
-
-> A sneak peek into the UI!
-
-| Hero Section | Projects Section |
-|--------------|------------------|
-| ![Hero](./public/hero-section.png) | ![Projects](./public/projects-section.png) |
-
----
-
 ## 🌍 Deployment
 
 You can deploy this project on any modern static hosting service like **Vercel**, **Netlify**, or **GitHub Pages**.
