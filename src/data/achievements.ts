@@ -12,32 +12,18 @@ export type Achievement = {
 };
 
 export const achievements: Achievement[] = [
+
   {
     id: 1,
-    title: "2nd Place - Algothon Codefest",
-    type: "competition",
-    year: "2024",
-    description: "Secured second place in the competitive programming event.",
-    icon: Trophy,
-  },
-  {
-    id: 2,
-    title: "3rd Place - INTELLECT 1.0 Hackathon",
+    title: "5th Place - AASTU Smart Logistics Hackathon",
     type: "competition", 
     year: "2024",
-    description: "Won third place for developing an innovative solution during the 24-hour hackathon.",
+    description: "Won fifth place for developing an innovative solution during the 24-hour hackathon.",
     icon: Trophy,
   },
+
   {
-    id: 3,
-    title: "Dean's List",
-    type: "academic",
-    year: "2023",
-    description: "Recognized for academic excellence with placement on the Dean's List.",
-    icon: Star,
-  },
-  {
-    id: 4,
+    id: 2,
     title: "Python Certification",
     type: "certification",
     year: "2023",
@@ -45,7 +31,7 @@ export const achievements: Achievement[] = [
     icon: Award,
   },
   {
-    id: 5,
+    id: 3,
     title: "SQL Certification",
     type: "certification",
     year: "2022",

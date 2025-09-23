@@ -98,13 +98,15 @@ const AboutSection = () => {
                     <div className="space-y-2">
                       <p className="font-medium">BSc in Software Engineering</p>
                       <p className="text-sm text-muted-foreground">
-                        SLIIT (Sri Lanka Institute of Information Technology)
+                        AASTU (Addis Ababa Science and Technology University)
                       </p>
                       <p className="text-sm text-muted-foreground">
                         2022 - Present
                       </p>
                       <p className="text-sm text-muted-foreground">
-                        Dean's List (2023)
+                        one of Ethiopia's two leading universities,
+                        established to help the country's industrialization
+                        effort.
                       </p>
                     </div>
                   </CardContent>
@@ -126,22 +128,22 @@ const AboutSection = () => {
                     <div className="space-y-4">
                       <div>
                         <p className="font-medium">
-                          Full Stack Developer Intern
+                          Software Engineering Intern
                         </p>
                         <p className="text-sm text-muted-foreground">
-                          Twist Digital
+                          A2SV (Africa to Silicon Valley)
                         </p>
                         <p className="text-sm text-muted-foreground">
-                          Since March 2025
+                          Since January 2025
                         </p>
                       </div>
                       <div>
-                        <p className="font-medium">Graphic Designer</p>
+                        <p className="font-medium">Web Developer Intern</p>
                         <p className="text-sm text-muted-foreground">
-                          SLIIT Media Unit
+                          ESKALATE
                         </p>
                         <p className="text-sm text-muted-foreground">
-                          Freelance
+                          June 2025 - September 2025
                         </p>
                       </div>
                     </div>
@@ -170,10 +172,10 @@ const AboutSection = () => {
                   alt="Aathif Zahir"
                   loading="lazy"
                 />
-                <AvatarFallback>AZ</AvatarFallback>
+                <AvatarFallback>MA</AvatarFallback>
               </Avatar>
               <div className="absolute -bottom-2 -right-2 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
-                3.41 GPA
+                3.51 GPA
               </div>
             </motion.div>
 
@@ -181,7 +183,7 @@ const AboutSection = () => {
               variants={itemVariants}
               className="text-center lg:text-left"
             >
-              <h3 className="text-2xl font-bold">Aathif Zahir</h3>
+              <h3 className="text-2xl font-bold">Mikiyas Alemayehu</h3>
               <p className="text-muted-foreground">
                 Software Engineering Student
               </p>
@@ -195,7 +197,7 @@ const AboutSection = () => {
                 React
               </Badge>
               <Badge variant="outline" className="bg-primary/10">
-                Node
+                Django
               </Badge>
               <Badge variant="outline" className="bg-primary/10">
                 UI/UX

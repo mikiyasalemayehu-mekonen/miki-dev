@@ -1,4 +1,3 @@
-
 export type Project = {
   id: number;
   title: string;
@@ -14,46 +13,60 @@ export type Project = {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Py Scrap - Amazon Web Scraper",
-    description: "A Python-based scraper using Scrapy to extract product details from Amazon, with MongoDB integration for data storage.",
-    image: "/imgs/p4.png",
-    tags: ["Python", "Scrapy", "MongoDB", "Data Mining"],
+    title: "A2SV Application Platform",
+    description:
+      "A web-based system designed to replace the manual A2SV application process, streamlining workflows for Applicants, Reviewers, Managers, and Admins.",
+    image: "/imgs/a2sv.png",
+    tags: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+    ],
     links: {
-      github: "https://github.com/AathifZahir/Py-Scrap",
-      live: "",
+      github: "https://github.com/joorayanne/G10-Starter-Project",
+      live: "https://g10-starter-project-git-master-nana-ds-projects.vercel.app/",
     },
   },
   {
     id: 2,
-    title: "MSR Tailor Store",
-    description: "A full-stack application with React and Node.js for order placement and checkout functionality for a tailor store.",
-    image: "/imgs/p1.png",
-    tags: ["React", "Node.js", "Express", "MongoDB"],
+    title: "Menumate",
+    image: "/imgs/menumate.png",
+    description:
+      "A digital restaurant menu and order management system, allowing customers to browse, order, and track their meals seamlessly.",
+    image: "/imgs/menumate.png",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "MySQL"],
     links: {
-      github: "https://github.com/AathifZahir/MSR-ITP",
-      live: "",
+      github:
+        "https://github.com/mikiyasalemayehu-mekonen/G6-MenuMate/tree/main",
+      live: "https://dineqmenumate.vercel.app/",
     },
   },
   {
     id: 3,
-    title: "Internship Finder - ProIntern",
-    description: "A React Native and Firebase app for managing internships and applications, helping students find relevant opportunities.",
-    image: "/imgs/p2.png",
-    tags: ["React Native", "Firebase", "Authentication", "Cloud Functions"],
+    title: "GameHub",
+   
+    description:
+      "A modern gaming discovery platform where users can explore and filter games, built with React and TypeScript.",
+    image: "/imgs/gamehub.png",
+    tags: ["React", "TypeScript", "Tailwind CSS", "REST API"],
     links: {
-      github: "https://github.com/AathifZahir/ProIntern",
-      live: ""
+      github: "https://github.com/mikiyasalemayehu-mekonen/game-hub",
+      live: "https://game-hub-beta-jet.vercel.app/",
     },
   },
   {
     id: 4,
-    title: "Minders",
-    description: "A creative community platform built with React and Tailwind CSS, fostering collaboration among creative professionals.",
-    image: "/imgs/p3.png",
-    tags: ["React", "Tailwind CSS", "Redux", "Firebase"],
+    title: "FitNest",
+    description:
+      "A fitness tracking app built with Flutter and Firebase, featuring workout plans, progress tracking, and personalized health insights.",
+    image: "/imgs/fitnest.png",
+    tags: ["Flutter", "Firebase", "Authentication"],
     links: {
-      github: "https://github.com/AathifZahir/Minders",
-      live: "https://minders-sigma.vercel.app/",
+      github: "https://github.com/mikiyasalemayehu-mekonen/FitNest",
+      live: "",
     },
   },
 ];

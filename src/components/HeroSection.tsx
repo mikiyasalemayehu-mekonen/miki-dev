@@ -56,14 +56,14 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            Aathif{" "}
+            Mikiyas{" "}
             <motion.span
               className="highlight-text"
               initial={{ backgroundSize: "0% 3px" }}
               animate={{ backgroundSize: "100% 3px" }}
               transition={{ duration: 1, delay: 1.2 }}
             >
-              Zahir
+              Alemayehu
             </motion.span>
           </motion.h1>
 
@@ -212,7 +212,7 @@ const HeroSection = () => {
                 >
                   <span className="text-purple-600">name</span>
                   <span className="text-gray-500">:</span>{" "}
-                  <span className="text-green-600">'Aathif Zahir'</span>
+                  <span className="text-green-600">'Mikiyas Alemayehu'</span>
                   <span className="text-gray-500">,</span>
                 </motion.div>
 
@@ -227,7 +227,7 @@ const HeroSection = () => {
                   <span className="text-orange-500">[</span>
                   <span className="text-green-600">'React'</span>
                   <span className="text-gray-500">,</span>{" "}
-                  <span className="text-green-600">'Node.js'</span>
+                  <span className="text-green-600">'Django'</span>
                   <span className="text-gray-500">,</span>{" "}
                   <span className="text-green-600">'Python'</span>
                   <span className="text-orange-500">]</span>
