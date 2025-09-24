@@ -1,7 +1,7 @@
-# 🚀 Aathif Zahir – Full Stack Developer Portfolio
+# 🚀 Mikiyas Alemayehu – Full Stack Developer Portfolio
 
-[![Portfolio](https://img.shields.io/badge/Live%20Portfolio-blueviolet?style=for-the-badge&logo=vercel&logoColor=white)](https://aathifzahir.dev)
-[![GitHub Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aathifzahir/portfolio)
+[![Portfolio]
+[![GitHub Repo]
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
@@ -10,11 +10,11 @@
 
 ---
 
-![Portfolio Screenshot](./public/screenshot.png)
+![Portfolio Screenshot](./public/)
 
 ## ✨ Overview
 
-Welcome to the personal portfolio of **Aathif Zahir**, a passionate Software Engineering undergraduate with a strong focus on **full-stack web development**. This portfolio is a reflection of my journey, skills, projects, and achievements — built with a modern tech stack and polished UI/UX.
+Welcome to the personal portfolio of **MikiYas Alemayheu**, a passionate Software Engineering undergraduate with a strong focus on **full-stack web development**. This portfolio is a reflection of my journey, skills, projects, and achievements — built with a modern tech stack and polished UI/UX.
 
 ---
 
@@ -71,7 +71,7 @@ src/
 
 ```bash
 # Clone the repository
-git clone https://github.com/aathifzahir/portfolio.git
+git clone 
 cd portfolio
 
 # Install dependencies
@@ -110,14 +110,6 @@ vercel deploy --prod
 
 ---
 
-## 📬 Contact Me
-
-I’m open to collaborations, opportunities, or just a chat!
-
-- 📧 [aathif@example.com](mailto:aathif@example.com)
-- 💼 [LinkedIn](https://linkedin.com/in/aathifzahir)
-- 💻 [GitHub](https://github.com/aathifzahir)
 
 ---
 
-> © 2025 Aathif Zahir. Built with ❤️ using React, TypeScript, and Tailwind CSS.
