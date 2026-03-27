@@ -15,10 +15,10 @@ export const achievements: Achievement[] = [
 
   {
     id: 1,
-    title: "5th Place - AASTU Smart Logistics Hackathon",
-    type: "competition", 
-    year: "2024",
-    description: "Won fifth place for developing an innovative solution during the 24-hour hackathon.",
+    title: "1st Place - SWENETIX Hiring Hackathon Winner",
+    type: "competition",
+    year: "2026",
+    description: "Won first place for developing an authentic code checker during the 24-hour hackathon.",
     icon: Trophy,
   },
 

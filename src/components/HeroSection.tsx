@@ -73,7 +73,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
           >
-            Full-Stack Developer & Software Engineering Student
+            Full-Stack Developer
           </motion.p>
 
           <motion.p
@@ -245,7 +245,7 @@ const HeroSection = () => {
                   <span className="text-orange-500">[</span>
                   <span className="text-green-600">'Full-Stack'</span>
                   <span className="text-gray-500">,</span>{" "}
-                  <span className="text-green-600">'UI/UX'</span>
+                  <span className="text-green-600">'AI/ML'</span>
                   <span className="text-orange-500">]</span>
                   <span className="text-gray-500">,</span>
                 </motion.div>
